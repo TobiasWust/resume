@@ -1,0 +1,191 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tobias Wust",
+    "label": "React Frontend Developer",
+    "image": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
+    "picture": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
+    "email": "kontakt@tobiaswust.de",
+    "phone": "+4917644417878",
+    "summary": "I wanted to make videos games since age 11, so I started to learn software development very early. After my Bachelor of Science in Business Information Systems I worked with SAP/ABAP in the Public Sector for 4 Years. Then decided to quit and freelance remotely. Now I do web development, mostly with React, but I'm also experienced with other frameworks. ",
+    "location": {
+      "address": "Europe"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tobias-wust",
+        "url": "https://www.linkedin.com/in/tobias-wust/"
+      },
+      {
+        "network": "GitHub",
+        "username": "tobiaswust",
+        "url": "https://github.com/TobiasWust"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tobias Wust",
+      "position": "Freelance Developer",
+      "startDate": "2018-03-31",
+      "summary": "I build beautiful and functional Frontends - usually with React."
+    },
+    {
+      "name": "Tobias Wust",
+      "position": "Freelance Paragliding Instructor",
+      "startDate": "2018-03-31",
+      "summary": "I teach People to fly."
+    },
+    {
+      "name": "hitcap esports GmbH",
+      "summary": "hitcap was a Startup in the gaming industry with two products. We built a social media platform for gamers and a coaching platform for aspiring professionals. In both projects I worked as frontend developer with React and made real, what the Designers imagined.",
+      "startDate": "2021-01-31",
+      "endDate": "2022-08-31",
+      "highlights": [
+        "React",
+        "TypeScript",
+        "mobx",
+        "Redux",
+        "Docker",
+        "MongoDB"
+      ],
+      "url": "https://www.linkedin.com/company/hitcapgg/",
+      "position": "Frontend Developer"
+    },
+    {
+      "name": "Divery.io",
+      "summary": "Divery is a ERP specifally for Dive Centers where they can plan courses and bill them to customers. It can also be used for materials management in a shop. When I came to the project it was built with jQuery. As the only developer I continued with jQuery for a while and later when we had more developers we changed to React.",
+      "startDate": "2018-11-30",
+      "endDate": "2020-02-28",
+      "highlights": [
+        "jQuery",
+        "React",
+        "CouchDB"
+      ],
+      "location": "Remote",
+      "position": "Lead Frontend Developer",
+      "url": "https://divery.io/"
+    },
+    {
+      "name": "REMEDYNE GmbH",
+      "summary": "Remedyne is a Fraud Prevention Add-on for SAP. I developed some Fraud Checks, took care of internationalization and helped develop a serverless API on AWS",
+      "position": "SAP Developer",
+      "startDate": "2016-07-31",
+      "endDate": "2018-06-30",
+      "highlights": [
+        "SAP/ABAP",
+        "Docker",
+        "Amazon AWS"
+      ],
+      "url": "https://remedyne.de/"
+    },
+    {
+      "name": "Landeshauptstadt Hannover",
+      "position": "SAP Developer",
+      "startDate": "2013-09-30",
+      "endDate": "2017-07-31",
+      "highlights": [
+        "SAP Administration",
+        "SAP Softwaredevelopement and Module Management",
+        "Authorization",
+        "Businesspartners and CML"
+      ],
+      "url": "https://www.hannover.de/"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML | JSX",
+        "SCSS | CSS | Styled Components",
+        "Javascript | Typescript",
+        "React | Next",
+        "Redux | Apollo",
+        "Vue | Nuxt"
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Node",
+        "PHP",
+        "PhpMyAdmin",
+        "SQL",
+        "MongoDB",
+        "Serverless"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "Git",
+        "SAP/ABAP"
+      ],
+      "name": "Other"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Leibniz Fachhochschule Hannover",
+      "area": "Business Information Systems",
+      "studyType": "Bachelor of Science",
+      "startDate": "2009-12-31",
+      "endDate": "2012-12-31",
+      "score": "2,3",
+      "courses": []
+    },
+    {
+      "institution": "OfG / Online-Schule für Gestaltung",
+      "area": "Graphic Design",
+      "studyType": "Remote",
+      "startDate": "2013",
+      "endDate": "2014",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "Deutsch"
+    },
+    {
+      "fluency": "Full Professional",
+      "language": "Englisch"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Französisch"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Italienisch"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Russisch"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Spanisch"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Paragliding"
+    },
+    {
+      "name": "Hiking"
+    },
+    {
+      "name": "Adventures"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "theme": "elegant"
+  }
+}
