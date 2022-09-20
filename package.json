@@ -17,6 +17,7 @@
   },
   "homepage": "https://gist.github.com/20752344a8c66bcb93c3209f69d2f971",
   "dependencies": {
-    "jsonresume-theme-elegant": "^1.16.1"
+    "jsonresume-theme-elegant": "^1.16.1",
+    "resume-cli": "^3.0.7"
   }
 }
