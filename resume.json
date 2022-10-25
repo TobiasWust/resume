@@ -108,7 +108,7 @@
     },
     {
       "keywords": [
-        "Node",
+        "Node.js",
         "PHP",
         "PhpMyAdmin",
         "SQL",
@@ -119,6 +119,7 @@
     },
     {
       "keywords": [
+        "Firebase",
         "AWS",
         "Git",
         "SAP/ABAP"
