@@ -54,6 +54,42 @@
       "position": "Frontend Developer"
     },
     {
+      "name": "Musikerstube",
+      "summary": "Musikerstube is a music teacher who teaches the styrian harmonica. I helped him to build a custom video player for vimeo where customers can easily repeat sections of a video for easier musical practice.",
+      "startDate": "2020-12-01",
+      "endDate": "2020-12-31",
+      "highlights": [
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://musikerstube.at/",
+      "position": "Frontend Developer"
+    },
+    {
+      "name": "Deichstadtvolleys",
+      "summary": "Deichstadtvolleys is a Volleyballteam. I helped them to show their game results on their website using the API of the german volleyball league.",
+      "startDate": "2020-11-01",
+      "endDate": "2020-11-30",
+      "highlights": [
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://deichstadtvolleys.de/",
+      "position": "Wordpress Developer"
+    },
+    {
+      "name": "book-in Manager",
+      "summary": "book-in manager is a react based management tool for hotels and airbnbs wghere I helped with some custom components.",
+      "startDate": "2021-01-31",
+      "endDate": "2022-06-30",
+      "highlights": [
+        "React",
+        "Javascript"
+      ],
+      "url": "https://book-in.at/",
+      "position": "Frontend Developer"
+    },
+    {
       "name": "Divery.io",
       "summary": "Divery is a ERP specifally for Dive Centers where they can plan courses and bill them to customers. It can also be used for materials management in a shop. When I came to the project it was built with jQuery. As the only developer I continued with jQuery for a while and later when we had more developers we changed to React.",
       "startDate": "2018-11-30",
@@ -66,6 +102,56 @@
       "location": "Remote",
       "position": "Lead Frontend Developer",
       "url": "https://divery.io/"
+    },
+    {
+      "name": "konzeption sg",
+      "summary": "konzeption sg is a webdesign agency. I help them, when there a difficult development tasks. For example I created a Custom Wordpress plugin for a real estate agency that wanted to use their Wordpress website to manage their properties and export those to several real estate platforms.",
+      "position": "Wordpress Developer",
+      "startDate": "2018-06-16",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://konzeption-sg.de/"
+    },
+    {
+      "name": "Iklr.de (Herzretterkurse GmbH)",
+      "summary": "Iklr (ich kanne leben retten / I can save lifes) is a initiative to teach people cardiopulmonary resuscitation. I helped redesign and develop a new Website with Wordpress.",
+      "position": "Lead Wordpress Developer",
+      "startDate": "2018-10-16",
+      "endDate": "2020-07-31",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://iklr.de/"
+    },
+    {
+      "name": "Ello Rollator (eMovements GmbH)",
+      "summary": "Ello Rollator is a startup that builds electric rollator walkers. I helped the exisiting Wordpress Team with individual development issues.",
+      "position": "Wordpress Developer",
+      "startDate": "2018-10-16",
+      "endDate": "2020-07-31",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://ello-rollator.de/"
+    },
+    {
+      "name": "Flugschule Phoenix",
+      "summary": "Flugschule Phoenix is a paragliding school for which I designed and created a new Website with Wordpress including a course management and booking system.",
+      "position": "Lead Wordpress Developer",
+      "startDate": "2018-04-20",
+      "endDate": "2018-06-30",
+      "highlights": [
+        "Wordpress",
+        "PHP"
+      ],
+      "url": "https://www.flugschule-phoenix.de/"
     },
     {
       "name": "REMEDYNE GmbH",
