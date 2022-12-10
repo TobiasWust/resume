@@ -7,7 +7,7 @@
     "picture": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
     "email": "kontakt@tobiaswust.de",
     "phone": "+4917644417878",
-    "summary": "I wanted to make videos games since age 11, so I started to learn software development very early. After my Bachelor of Science in Business Information Systems I worked with SAP/ABAP in the Public Sector for 4 Years. Then decided to quit and freelance remotely. Now I do web development, mostly with React, but I'm also experienced with other frameworks. ",
+    "summary": "Since the age of 11, I have been passionate about software development and have been actively learning and growing my skills in this field. After completing my Bachelor of Science in Business Information Systems, I gained valuable experience working with SAP/ABAP in the public sector for four years. I then made the decision to become a freelance developer, specializing in web development with a focus on React and other popular frameworks. I am committed to staying up-to-date with the latest technologies and best practices in order to provide high-quality solutions for my clients.",
     "location": {
       "address": "Europe"
     },
@@ -29,17 +29,17 @@
       "name": "Tobias Wust",
       "position": "Freelance Developer",
       "startDate": "2018-03-31",
-      "summary": "I build beautiful and functional Frontends - usually with React."
+      "summary": "As a front-end developer, my focus is on creating beautiful and functional user interfaces using React and other popular frameworks. I take a meticulous and detail-oriented approach to my work, ensuring that the end result is not only visually appealing but also highly functional and user-friendly."
     },
     {
       "name": "Tobias Wust",
       "position": "Freelance Paragliding Instructor",
       "startDate": "2018-03-31",
-      "summary": "I teach People to fly."
+      "summary": "In addition to my work as a front-end developer, I am also a paragliding flight instructor. In this role, I have the opportunity to share my passion for flying with others and help them learn the skills and techniques needed to safely and successfully fly a paraglider. I love this job because it allows me to combine my technical skills with my love of the outdoors and my desire to help others. Being a paragliding instructor also requires flexibility and adaptability, as weather and other factors can affect the ability to fly, and I am constantly learning and adapting to new situations."
     },
     {
       "name": "hitcap esports GmbH",
-      "summary": "hitcap was a Startup in the gaming industry with two products. We built a social media platform for gamers and a coaching platform for aspiring professionals. In both projects I worked as frontend developer with React and made real, what the Designers imagined.",
+      "summary": "At hitcap esports GmbH, I had the opportunity to work on two exciting products for the gaming industry. As a front-end developer, I was responsible for helping to build a social media platform for gamers and a coaching platform for aspiring professionals. Both projects required a high level of skill and attention to detail, and I was able to successfully bring the designers' vision to life using React and other technologies. This experience provided valuable insights into the world of gaming and gave me the opportunity to contribute to the development of innovative and cutting-edge products.",
       "startDate": "2021-01-31",
       "endDate": "2022-08-31",
       "highlights": [
@@ -55,7 +55,7 @@
     },
     {
       "name": "Musikerstube",
-      "summary": "Musikerstube is a music teacher who teaches the styrian harmonica. I helped him to build a custom video player for vimeo where customers can easily repeat sections of a video for easier musical practice.",
+      "summary": "I recently had the opportunity to work with Musikerstube, a music teacher who specializes in teaching the styrian harmonica. In this role, I assisted in the development of a custom video player for Vimeo that allowed customers to easily repeat sections of a video for easier musical practice. This project required a deep understanding of both music and technology, and I was able to deliver a solution that met the client's needs and improved their ability to provide high-quality instruction to their students.",
       "startDate": "2020-12-01",
       "endDate": "2020-12-31",
       "highlights": [
@@ -67,7 +67,7 @@
     },
     {
       "name": "Deichstadtvolleys",
-      "summary": "Deichstadtvolleys is a Volleyballteam. I helped them to show their game results on their website using the API of the german volleyball league.",
+      "summary": "I recently worked with Deichstadtvolleys, a volleyball team, to develop a custom solution that displayed their game results on their website using the API of the German volleyball league. This project required technical expertise and a deep understanding of the sport, and I was able to deliver a solution that met the team's needs and enhanced their ability to share their game results with their fans.",
       "startDate": "2020-11-01",
       "endDate": "2020-11-30",
       "highlights": [
@@ -79,7 +79,7 @@
     },
     {
       "name": "book-in Manager",
-      "summary": "book-in manager is a react based management tool for hotels and airbnbs wghere I helped with some custom components.",
+      "summary": " I had the opportunity to work on book-in manager, a React-based management tool for hotels and Airbnb rentals. In this role, I assisted in the development of custom components for the platform, leveraging my expertise in React and front-end development. This project required a high level of skill and attention to detail, and I was able to make meaningful contributions to the development of this innovative and user-friendly tool.",
       "startDate": "2021-01-31",
       "endDate": "2022-06-30",
       "highlights": [
@@ -91,7 +91,7 @@
     },
     {
       "name": "Divery.io",
-      "summary": "Divery is a ERP specifally for Dive Centers where they can plan courses and bill them to customers. It can also be used for materials management in a shop. When I came to the project it was built with jQuery. As the only developer I continued with jQuery for a while and later when we had more developers we changed to React.",
+      "summary": "Divery is an ERP specifically designed for dive centers, providing them with a comprehensive solution for course planning, billing, and materials management. When I joined the project, the platform was built using jQuery, and as the sole developer on the team, I continued to work with jQuery for a while. Later, as the team grew and we added more developers, we migrated the platform to React. Throughout this process, I played a critical role in ensuring a smooth transition and continued development of the platform, leveraging my expertise in both jQuery and React to deliver high-quality solutions for our clients.",
       "startDate": "2018-11-30",
       "endDate": "2020-02-28",
       "highlights": [
@@ -105,7 +105,7 @@
     },
     {
       "name": "konzeption sg",
-      "summary": "konzeption sg is a webdesign agency. I help them, when there a difficult development tasks. For example I created a Custom Wordpress plugin for a real estate agency that wanted to use their Wordpress website to manage their properties and export those to several real estate platforms.",
+      "summary": "I have had the pleasure of working with konzeption sg, a web design agency, on a number of challenging development projects. For example, I recently developed a custom WordPress plugin for a real estate agency that wanted to use their WordPress website to manage their properties and export them to multiple real estate platforms. This project required a high level of technical expertise and an in-depth understanding of WordPress, and I was able to deliver a solution that met the client's needs and exceeded their expectations. I am grateful for the opportunity to collaborate with konzeption sg and contribute to their success.",
       "position": "Wordpress Developer",
       "startDate": "2018-06-16",
       "highlights": [
@@ -117,7 +117,7 @@
     },
     {
       "name": "Iklr.de (Herzretterkurse GmbH)",
-      "summary": "Iklr (ich kanne leben retten / I can save lifes) is a initiative to teach people cardiopulmonary resuscitation. I helped redesign and develop a new Website with Wordpress.",
+      "summary": "I recently had the opportunity to work with Iklr (Ich kann Leben retten / I can save lifes), a nonprofit organization that seeks to teach people cardiopulmonary resuscitation (CPR) in order to save lives. As part of this project, I assisted in the redesign and development of a new website using WordPress. This was a challenging and rewarding project, as it required a deep understanding of both web development and the mission of Iklr. I am proud to have contributed to the success of this important initiative, and I am grateful for the opportunity to use my skills to help others.",
       "position": "Lead Wordpress Developer",
       "startDate": "2018-10-16",
       "endDate": "2020-07-31",
@@ -130,7 +130,7 @@
     },
     {
       "name": "Ello Rollator (eMovements GmbH)",
-      "summary": "Ello Rollator is a startup that builds electric rollator walkers. I helped the exisiting Wordpress Team with individual development issues.",
+      "summary": "I had the opportunity to work with Ello Rollator, a startup that builds electric rollator walkers. In this role, I assisted the existing WordPress team with a variety of development issues, leveraging my expertise in web development to help the team overcome challenges and continue to make progress on their innovative product. This was a rewarding experience, as it allowed me to contribute to the success of a startup and help bring a unique and valuable product to market.",
       "position": "Wordpress Developer",
       "startDate": "2018-10-16",
       "endDate": "2020-07-31",
@@ -143,7 +143,7 @@
     },
     {
       "name": "Flugschule Phoenix",
-      "summary": "Flugschule Phoenix is a paragliding school for which I designed and created a new Website with Wordpress including a course management and booking system.",
+      "summary": "I recently had the opportunity to work with Flugschule Phoenix, a paragliding school. As part of this project, I was responsible for designing and creating a new website for the school using WordPress. The website included a course management and booking system, and I was able to leverage my expertise in WordPress and web development to create a user-friendly and functional solution that met the school's needs and improved their ability to manage and promote their courses. This was a rewarding project, and I am grateful for the opportunity to contribute to the success of Flugschule Phoenix.",
       "position": "Lead Wordpress Developer",
       "startDate": "2018-04-20",
       "endDate": "2018-06-30",
@@ -155,7 +155,7 @@
     },
     {
       "name": "REMEDYNE GmbH",
-      "summary": "Remedyne is a Fraud Prevention Add-on for SAP. I developed some Fraud Checks, took care of internationalization and helped develop a serverless API on AWS",
+      "summary": "Remedyne is a fraud prevention add-on for SAP. In this role, I was responsible for developing fraud checks, managing internationalization, and helping to develop a serverless API on AWS. This was a challenging and rewarding project, as it required a deep understanding of SAP, fraud prevention, and cloud computing. I was able to leverage my expertise in these areas to make meaningful contributions to the success of Remedyne, and I am grateful for the opportunity to work on this innovative and impactful project.,
       "position": "SAP Developer",
       "startDate": "2016-07-31",
       "endDate": "2018-06-30",
@@ -168,6 +168,7 @@
     },
     {
       "name": "Landeshauptstadt Hannover",
+      "summary": "After my Bachelors Degree I had the opportunity to work for the City of Hanover as a SAP developer. In this role, I was responsible for SAP administration, software development and module management, and authorization. I also worked with business partners and CML, and I helped to develop custom SAP solutions for the city's various departments. This was a challenging and rewarding experience, as it allowed me to use my SAP expertise to help improve the city's operations and deliver high-quality solutions to its departments and employees.
       "position": "SAP Developer",
       "startDate": "2013-09-30",
       "endDate": "2017-07-31",
