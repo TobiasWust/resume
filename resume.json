@@ -38,6 +38,22 @@
       "summary": "In addition to my work as a front-end developer, I am also a paragliding flight instructor. In this role, I have the opportunity to share my passion for flying with others and help them learn the skills and techniques needed to safely and successfully fly a paraglider. I love this job because it allows me to combine my technical skills with my love of the outdoors and my desire to help others. Being a paragliding instructor also requires flexibility and adaptability, as weather and other factors can affect the ability to fly, and I am constantly learning and adapting to new situations."
     },
     {
+      "name": "SummarizeIt",
+      "summary": "As the Lead Developer at Summarizeit, a SaaS company using AI to create summaries from videos, I was responsible for the development and implementation of various features including user management, payment processing, and the product itself. Utilizing modern technologies, I successfully managed and overcame various technical challenges to deliver a high-quality product.",
+      "startDate": "2022-12-15",
+      "highlights": [
+        "React",
+        "TypeScript",
+        "supabase",
+        "Next.js",
+        "Stripe",
+        "OpenAI GPT",
+        "Tailwind CSS"
+      ],
+      "url": "https://summarizeit.io/",
+      "position": "Lead Fullstack Developer"
+    },
+    {
       "name": "hitcap esports GmbH",
       "summary": "At hitcap esports GmbH, I had the opportunity to work on two exciting products for the gaming industry. As a front-end developer, I was responsible for helping to build a social media platform for gamers and a coaching platform for aspiring professionals. Both projects required a high level of skill and attention to detail, and I was able to successfully bring the designers' vision to life using React and other technologies. This experience provided valuable insights into the world of gaming and gave me the opportunity to contribute to the development of innovative and cutting-edge products.",
       "startDate": "2021-01-31",
