@@ -268,27 +268,31 @@
   "languages": [
     {
       "fluency": "Native Speaker",
-      "language": "Deutsch"
+      "language": "German"
     },
     {
       "fluency": "Full Professional",
-      "language": "Englisch"
+      "language": "English"
     },
     {
       "fluency": "Elementary",
-      "language": "Französisch"
+      "language": "French"
     },
     {
       "fluency": "Elementary",
-      "language": "Italienisch"
+      "language": "Italian"
     },
     {
       "fluency": "Elementary",
-      "language": "Russisch"
+      "language": "Russian"
     },
     {
       "fluency": "Elementary",
-      "language": "Spanisch"
+      "language": "Spanish"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Mandarin Chinese"
     }
   ],
   "interests": [
