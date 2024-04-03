@@ -41,17 +41,21 @@
       "name": "Zeix AG",
       "summary": "Frontend Developer",
       "startDate": "2023-03-01",
+      "endDate": "2023-08-01",
       "highlights": [
         "Handlebars",
-        "typescript"
+        "TypeScript",
+        "Gulp",
+        "NodeJs"
       ],
-      "url": "https://summarizeit.io/",
-      "position": "Frontend Developer"
+      "url": "https://zeix.com/",
+      "position": "As a Frontend Developer at Zeix, I contributed to the development of governmental websites. Leveraging my extensive experience in frontend development, I adeptly navigated a custom tech stack, seamlessly integrating myself into the project. My role extended beyond the addition of new code; I actively enhanced existing codebases, ensuring optimal performance and user experience."
     },
     {
       "name": "SummarizeIt",
       "summary": "As the Lead Developer at Summarizeit, a SaaS company using AI to create summaries from videos, I was responsible for the development and implementation of various features including user management, payment processing, and the product itself. Utilizing modern technologies, I successfully managed and overcame various technical challenges to deliver a high-quality product.",
       "startDate": "2022-12-15",
+      "endDate": "2023-08-01",
       "highlights": [
         "React",
         "TypeScript",
