@@ -3,9 +3,8 @@
   "basics": {
     "name": "Tobias Wust",
     "label": "React Frontend Developer",
-    "image": "https://res.cloudinary.com/tobiaswust/image/upload/c_scale,e_improve,f_auto,q_auto:good,r_21,w_250/v1527682175/tobiaswust.de/Bewerbungsfoto.jpg",
-    "picture": "https://res.cloudinary.com/tobiaswust/image/upload/c_scale,e_improve,f_auto,q_auto:good,r_21,w_250/v1527682175/tobiaswust.de/Bewerbungsfoto.jpg",
-    "email": "kontakt@tobiaswust.de",
+    "image": "https://avatars.githubusercontent.com/u/10038072?s=400& u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
+    "picture": "https://avatars.githubusercontent.com/u/10038072?s=400& u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",    "email": "kontakt@tobiaswust.de",
     "phone": "+4917644417878",
     "summary": "Since the age of 11, I have been passionate about software development and have been actively learning and growing my skills in this field. After completing my Bachelor of Science in Business Information Systems, I gained valuable experience working with SAP/ABAP in the public sector for four years. I then made the decision to become a freelance developer, specializing in web development with a focus on React and other popular frameworks. I am committed to staying up-to-date with the latest technologies and best practices in order to provide high-quality solutions for my clients.",
     "location": {
