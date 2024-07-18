@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tobias Wust",
-    "label": "React Frontend Developer",
+    "label": "React / Nodejs Fullstack Developer",
     "image": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
     "picture": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
     "email": "kontakt@tobiaswust.de",
@@ -29,7 +29,7 @@
       "name": "Tobias Wust",
       "position": "Freelance Developer",
       "startDate": "2018-03-31",
-      "summary": "As a front-end developer, my focus is on creating beautiful and functional user interfaces using React and other popular frameworks. I take a meticulous and detail-oriented approach to my work, ensuring that the end result is not only visually appealing but also highly functional and user-friendly."
+      "summary": "As a fullstack developer, my focus is on creating beautiful and functional web experiences using React and other popular frameworks. I take a meticulous and detail-oriented approach to my work, ensuring that the end result is not only visually appealing but also highly functional and user-friendly."
     },
     {
       "name": "Tobias Wust",
