@@ -1,0 +1,301 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tobias Wust",
+    "label": "React / Nodejs Fullstack Developer",
+    "image": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
+    "picture": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
+    "email": "kontakt@tobiaswust.de",
+    "phone": "+4917644417878",
+    "summary": "Since the age of 11, I have been passionate about software development and have been actively learning and growing my skills in this field. After completing my Bachelor of Science in Business Information Systems, I gained valuable experience working with SAP/ABAP in the public sector for four years. I then made the decision to become a freelance developer, specializing in web development with a focus on React and other popular frameworks. I am committed to staying up-to-date with the latest technologies and best practices in order to provide high-quality solutions for my clients.",
+    "location": {
+      "address": "Europe"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tobias-wust",
+        "url": "https://www.linkedin.com/in/tobias-wust/"
+      },
+      {
+        "network": "GitHub",
+        "username": "tobiaswust",
+        "url": "https://github.com/TobiasWust"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tobias Wust",
+      "position": "Freelance Developer",
+      "startDate": "2018-03-31",
+      "summary": "As a fullstack developer, my focus is on creating beautiful and functional web experiences using React and other popular frameworks. I take a meticulous and detail-oriented approach to my work, ensuring that the end result is not only visually appealing but also highly functional and user-friendly."
+    },
+    {
+      "name": "Tobias Wust",
+      "position": "Freelance Paragliding Instructor",
+      "startDate": "2018-03-31",
+      "summary": "In addition to my work as a fullstack developer, I am also a paragliding flight instructor. In this role, I have the opportunity to share my passion for flying with others and help them learn the skills and techniques needed to safely and successfully fly a paraglider. I love this job because it allows me to combine my technical skills with my love of the outdoors and my desire to help others. Being a paragliding instructor also requires flexibility and adaptability, as weather and other factors can affect the ability to fly, and I am constantly learning and adapting to new situations."
+    },
+    {
+      "name": "Zeix AG",
+      "position": "Associate Frontend Developer",
+      "startDate": "2023-03-01",
+      "highlights": [
+        "Handlebars",
+        "TypeScript",
+        "Gulp",
+        "NodeJs"
+      ],
+      "url": "https://zeix.com/",
+      "summary": "As a Frontend Developer at Zeix, I contributed to the development of governmental websites. Leveraging my extensive experience in frontend development, I adeptly navigated a custom tech stack, seamlessly integrating myself into the project. My role extended beyond the addition of new code; I actively enhanced existing codebases, ensuring optimal performance and user experience."
+    },
+    {
+      "name": "SummarizeIt",
+      "summary": "As the Lead Developer at Summarizeit, a SaaS company using AI to create summaries from videos, I was responsible for the development and implementation of various features including user management, payment processing, and the product itself. Utilizing modern technologies, I successfully managed and overcame various technical challenges to deliver a high-quality product.",
+      "startDate": "2022-12-15",
+      "endDate": "2023-08-01",
+      "highlights": [
+        "React",
+        "TypeScript",
+        "supabase",
+        "Next.js",
+        "Stripe",
+        "OpenAI GPT",
+        "Tailwind CSS"
+      ],
+      "url": "https://summarizeit.io/",
+      "position": "Lead Fullstack Developer"
+    },
+    {
+      "name": "hitcap esports GmbH",
+      "summary": "At hitcap esports GmbH, I had the opportunity to work on two exciting products for the gaming industry. As a front-end developer, I was responsible for helping to build a social media platform for gamers and a coaching platform for aspiring professionals. Both projects required a high level of skill and attention to detail, and I was able to successfully bring the designers' vision to life using React and other technologies. This experience provided valuable insights into the world of gaming and gave me the opportunity to contribute to the development of innovative and cutting-edge products.",
+      "startDate": "2021-01-31",
+      "endDate": "2022-08-31",
+      "highlights": [
+        "React",
+        "TypeScript",
+        "mobx",
+        "Redux",
+        "Docker",
+        "MongoDB"
+      ],
+      "url": "https://www.linkedin.com/company/hitcapgg/",
+      "position": "Frontend Developer"
+    },
+    {
+      "name": "Musikerstube",
+      "summary": "I recently had the opportunity to work with Musikerstube, a music teacher who specializes in teaching the styrian harmonica. In this role, I assisted in the development of a custom video player for Vimeo that allowed customers to easily repeat sections of a video for easier musical practice. This project required a deep understanding of both music and technology, and I was able to deliver a solution that met the client's needs and improved their ability to provide high-quality instruction to their students.",
+      "startDate": "2020-12-01",
+      "endDate": "2020-12-31",
+      "highlights": [
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://musikerstube.at/",
+      "position": "Frontend Developer"
+    },
+    {
+      "name": "book-in Manager",
+      "summary": " I had the opportunity to work on book-in manager, a React-based management tool for hotels and Airbnb rentals. In this role, I assisted in the development of custom components for the platform, leveraging my expertise in React and front-end development. This project required a high level of skill and attention to detail, and I was able to make meaningful contributions to the development of this innovative and user-friendly tool.",
+      "startDate": "2021-01-31",
+      "endDate": "2022-06-30",
+      "highlights": [
+        "React",
+        "Javascript"
+      ],
+      "url": "https://book-in.at/",
+      "position": "Frontend Developer"
+    },
+    {
+      "name": "Divery.io",
+      "summary": "Divery is an ERP specifically designed for dive centers, providing them with a comprehensive solution for course planning, billing, and materials management. When I joined the project, the platform was built using jQuery, and as the sole developer on the team, I continued to work with jQuery for a while. Later, as the team grew and we added more developers, we migrated the platform to React. Throughout this process, I played a critical role in ensuring a smooth transition and continued development of the platform, leveraging my expertise in both jQuery and React to deliver high-quality solutions for our clients.",
+      "startDate": "2018-11-30",
+      "endDate": "2020-02-28",
+      "highlights": [
+        "jQuery",
+        "React",
+        "CouchDB"
+      ],
+      "location": "Remote",
+      "position": "Lead Frontend Developer",
+      "url": "https://divery.io/"
+    },
+    {
+      "name": "konzeption sg",
+      "summary": "I have had the pleasure of working with konzeption sg, a web design agency, on a number of challenging development projects. For example, I recently developed a custom WordPress plugin for a real estate agency that wanted to use their WordPress website to manage their properties and export them to multiple real estate platforms. This project required a high level of technical expertise and an in-depth understanding of WordPress, and I was able to deliver a solution that met the client's needs and exceeded their expectations. I am grateful for the opportunity to collaborate with konzeption sg and contribute to their success.",
+      "position": "Wordpress Developer",
+      "startDate": "2018-06-16",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://konzeption-sg.de/"
+    },
+    {
+      "name": "Iklr.de (Herzretterkurse GmbH)",
+      "summary": "I recently had the opportunity to work with Iklr (Ich kann Leben retten / I can save lifes), a nonprofit organization that seeks to teach people cardiopulmonary resuscitation (CPR) in order to save lives. As part of this project, I assisted in the redesign and development of a new website using WordPress. This was a challenging and rewarding project, as it required a deep understanding of both web development and the mission of Iklr. I am proud to have contributed to the success of this important initiative, and I am grateful for the opportunity to use my skills to help others.",
+      "position": "Lead Wordpress Developer",
+      "startDate": "2018-10-16",
+      "endDate": "2020-07-31",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://iklr.de/"
+    },
+    {
+      "name": "Ello Rollator (eMovements GmbH)",
+      "summary": "I had the opportunity to work with Ello Rollator, a startup that builds electric rollator walkers. In this role, I assisted the existing WordPress team with a variety of development issues, leveraging my expertise in web development to help the team overcome challenges and continue to make progress on their innovative product. This was a rewarding experience, as it allowed me to contribute to the success of a startup and help bring a unique and valuable product to market.",
+      "position": "Wordpress Developer",
+      "startDate": "2018-10-16",
+      "endDate": "2020-07-31",
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
+      "url": "https://ello-rollator.de/"
+    },
+    {
+      "name": "Flugschule Phoenix",
+      "summary": "I recently had the opportunity to work with Flugschule Phoenix, a paragliding school. As part of this project, I was responsible for designing and creating a new website for the school using WordPress. The website included a course management and booking system, and I was able to leverage my expertise in WordPress and web development to create a user-friendly and functional solution that met the school's needs and improved their ability to manage and promote their courses. This was a rewarding project, and I am grateful for the opportunity to contribute to the success of Flugschule Phoenix.",
+      "position": "Lead Wordpress Developer",
+      "startDate": "2018-04-20",
+      "endDate": "2018-06-30",
+      "highlights": [
+        "Wordpress",
+        "PHP"
+      ],
+      "url": "https://www.flugschule-phoenix.de/"
+    },
+    {
+      "name": "REMEDYNE GmbH",
+      "summary": "Remedyne is a fraud prevention add-on for SAP. In this role, I was responsible for developing fraud checks, managing internationalization, and helping to develop a serverless API on AWS. This was a challenging and rewarding project, as it required a deep understanding of SAP, fraud prevention, and cloud computing. I was able to leverage my expertise in these areas to make meaningful contributions to the success of Remedyne, and I am grateful for the opportunity to work on this innovative and impactful project.",
+      "position": "SAP Developer",
+      "startDate": "2016-07-31",
+      "endDate": "2018-06-30",
+      "highlights": [
+        "SAP/ABAP",
+        "Docker",
+        "Amazon AWS"
+      ],
+      "url": "https://remedyne.de/"
+    },
+    {
+      "name": "Landeshauptstadt Hannover",
+      "summary": "After my Bachelors Degree I had the opportunity to work for the City of Hanover as a SAP developer. In this role, I was responsible for SAP administration, software development and module management, and authorization. I also worked with business partners and CML, and I helped to develop custom SAP solutions for the city's various departments. This was a challenging and rewarding experience, as it allowed me to use my SAP expertise to help improve the city's operations and deliver high-quality solutions to its departments and employees.",
+      "position": "SAP Developer",
+      "startDate": "2013-09-30",
+      "endDate": "2017-07-31",
+      "highlights": [
+        "SAP Administration",
+        "SAP Softwaredevelopement and Module Management",
+        "Authorization",
+        "Businesspartners and CML"
+      ],
+      "url": "https://www.hannover.de/"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML | JSX",
+        "SCSS | CSS | Styled Components",
+        "Javascript | Typescript",
+        "React | Next",
+        "Redux | Apollo",
+        "Vue | Nuxt"
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Node.js",
+        "PHP",
+        "PhpMyAdmin",
+        "SQL",
+        "MongoDB",
+        "Serverless"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "Firebase",
+        "AWS",
+        "Git",
+        "SAP/ABAP"
+      ],
+      "name": "Other"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Leibniz Fachhochschule Hannover",
+      "area": "Business Information Systems",
+      "studyType": "Bachelor of Science",
+      "startDate": "2009-12-31",
+      "endDate": "2012-12-31",
+      "score": "2,3",
+      "courses": []
+    },
+    {
+      "institution": "OfG / Online-Schule für Gestaltung",
+      "area": "Graphic Design",
+      "studyType": "Remote",
+      "startDate": "2013",
+      "endDate": "2014",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "German"
+    },
+    {
+      "fluency": "Full Professional",
+      "language": "English"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "French"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Italian"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Russian"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Spanish"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "Mandarin Chinese"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Paragliding"
+    },
+    {
+      "name": "Hiking"
+    },
+    {
+      "name": "Adventures"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "theme": "elegant"
+  }
+}
