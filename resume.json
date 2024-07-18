@@ -255,31 +255,19 @@
   "languages": [
     {
       "fluency": "Native Speaker",
-      "language": "German"
+      "language": "Deutsch"
     },
     {
       "fluency": "Full Professional",
-      "language": "English"
+      "language": "Englisch"
     },
     {
       "fluency": "Elementary",
-      "language": "French"
+      "language": "Italienisch"
     },
     {
       "fluency": "Elementary",
-      "language": "Italian"
-    },
-    {
-      "fluency": "Elementary",
-      "language": "Russian"
-    },
-    {
-      "fluency": "Elementary",
-      "language": "Spanish"
-    },
-    {
-      "fluency": "Elementary",
-      "language": "Mandarin Chinese"
+      "language": "Mandarin Chinesisch"
     }
   ],
   "interests": [
