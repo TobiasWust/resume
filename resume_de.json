@@ -38,15 +38,24 @@
       "summary": "Neben meiner Arbeit als Fullstack-Entwickler bin ich auch Gleitschirmfluglehrer. In dieser Funktion habe ich die Möglichkeit, meine Leidenschaft für das Fliegen mit anderen zu teilen und ihnen dabei zu helfen, die Fähigkeiten und Techniken zu erlernen, die für das sichere und erfolgreiche Fliegen eines Gleitschirms erforderlich sind. Ich liebe diesen Job, weil er es mir ermöglicht, meine technischen Fähigkeiten mit meiner Liebe zur Natur und meinem Wunsch, anderen zu helfen, zu verbinden. Der Beruf des Gleitschirmfluglehrers erfordert Flexibilität und Anpassungsfähigkeit. Da das Wetter und andere Faktoren die Sicherheit beeinträchtigen können, lerne ich ständig dazu."
     },
     {
+      "name": "node.energy",
+      "position": "Senior Frontend Developer",
+      "startDate": "2024-10-01",
+      "highlights": [
+        "React",
+        "Tanstack React Query",
+        "Webpack",
+        "Mantine",
+        "Typescript"
+      ],
+      "url": "https://www.node.energy/",
+      "summary": "Als Teil des Teams von node.energy als Senior Frontend Developer trage ich zur Entwicklung robuster, komponentenbasierter Webanwendungen bei. Mein Schwerpunkt liegt auf der Erstellung skalierbarer und wartungsfreundlicher UI-Komponenten, die eine schnelle und intuitive Benutzererfahrung ermöglichen. Um in dieser Rolle effektiv zu sein, habe ich mir schnell ein fundiertes Verständnis der Energiewirtschaft und -regulierung angeeignet, das mir hilft, komplexes Fachwissen in klare, benutzerorientierte digitale Tools umzusetzen. Ich lerne gerne schnell neue Themen und wende dieses Wissen gemeinsam mit anderen an, um sinnvolle Lösungen zu entwickeln. Ich bin stolz darauf, mein Fachwissen in ein Team einzubringen, das echte Veränderungen bewirkt: die Beschleunigung der Energiewende."
+    },
+    {
       "name": "Zeix AG",
       "position": "Associate Frontend Entwickler",
       "startDate": "2023-03-01",
-      "highlights": [
-        "Handlebars",
-        "TypeScript",
-        "Gulp",
-        "NodeJs"
-      ],
+      "highlights": ["Handlebars", "TypeScript", "Gulp", "NodeJs"],
       "url": "https://zeix.com/",
       "summary": "Als Frontend-Entwickler bei Zeix habe ich an der Entwicklung von Websites der Schweizer Regierung mitgewirkt. Mit meiner umfangreichen Erfahrung in der Frontend-Entwicklung habe ich mit einem selbstentwickelten Tech-Stack gearbeitet und mich nahtlos in das Projekt integriert. Meine Aufgabe bestand nicht nur darin, neuen Code hinzuzufügen, sondern auch bestehenden Code aktiv zu verbessern, um optimale Leistung und Benutzerfreundlichkeit zu gewährleisten."
     },
@@ -88,10 +97,7 @@
       "summary": "Ich hatte die Gelegenheit, mit Musikerstube zusammenzuarbeiten, einem Musiklehrer, der sich auf das Unterrichten der steirischen Harmonika spezialisiert hat. In dieser Rolle habe ich an der Entwicklung eines eigenen Videoplayers für Vimeo mitgewirkt, der es den Kunden ermöglicht, Abschnitte eines Videos zum leichteren Üben zu wiederholen. Dieses Projekt erforderte ein tiefes Verständnis sowohl für Musik als auch für Technologie, und ich konnte eine Lösung liefern, die den Bedürfnissen des Kunden entsprach und es ihm erleichterte, seinen Schülern qualitativ hochwertigen Unterricht zu bieten.",
       "startDate": "2020-12-01",
       "endDate": "2020-12-31",
-      "highlights": [
-        "PHP",
-        "Javascript"
-      ],
+      "highlights": ["PHP", "Javascript"],
       "url": "https://musikerstube.at/",
       "position": "Frontend Entwickler"
     },
@@ -100,10 +106,7 @@
       "summary": "Book-in Manager ist ein React-basiertes Verwaltungstool für Hotels und Airbnb-Vermietungen. Dort habe ich an der Entwicklung von benutzerdefinierten Komponenten für die Plattform mitgearbeitet und dabei mein Fachwissen in React und Frontend-Entwicklung eingesetzt. Dieses Projekt erforderte ein hohes Maß an Fachkenntnis und Liebe zum Detail, und ich konnte einen wichtigen Beitrag zur Entwicklung dieses innovativen und benutzerfreundlichen Tools leisten.",
       "startDate": "2021-01-31",
       "endDate": "2022-06-30",
-      "highlights": [
-        "React",
-        "Javascript"
-      ],
+      "highlights": ["React", "Javascript"],
       "url": "https://book-in.at/",
       "position": "Frontend Developer"
     },
@@ -112,11 +115,7 @@
       "summary": "Divery ist ein ERP-System, das speziell für Tauchbasen entwickelt wurde und eine umfangreiche Lösung für die Kursplanung, Rechnungsstellung und Materialverwaltung bietet. Als ich dem Projekt beitrat, wurde die Plattform mit jQuery entwickelt, und als einziger Entwickler im Team arbeitete ich eine Zeit lang weiter mit jQuery. Später, als das Team wuchs und weitere Entwickler hinzukamen, migrierten wir die Plattform zu React. Während dieses Prozesses spielte ich eine entscheidende Rolle bei der Sicherstellung eines reibungslosen Übergangs und der kontinuierlichen Weiterentwicklung der Plattform, indem ich mein Fachwissen sowohl in jQuery als auch in React nutzte, um unseren Kunden hochwertige Lösungen zu liefern.",
       "startDate": "2018-11-30",
       "endDate": "2020-02-28",
-      "highlights": [
-        "jQuery",
-        "React",
-        "CouchDB"
-      ],
+      "highlights": ["jQuery", "React", "CouchDB"],
       "location": "Remote",
       "position": "Lead Frontend Entwickler",
       "url": "https://divery.io/"
@@ -126,11 +125,7 @@
       "summary": "Ich hatte das Vergnügen, mit konzeption sg, einer Webdesign-Agentur, an einer Reihe von anspruchsvollen Entwicklungsprojekten zu arbeiten. Zum Beispiel habe ich ein individuelles WordPress-Plugin für eine Immobilienagentur entwickelt, die ihre WordPress-Website nutzen wollte, um ihre Immobilien zu verwalten und sie in mehrere Immobilienplattformen zu exportieren. Dieses Projekt erforderte ein hohes Maß an technischem Fachwissen und ein tiefes Verständnis von WordPress, und ich war in der Lage, eine Lösung zu liefern, die den Anforderungen des Kunden entsprach und seine Erwartungen übertraf. Ich bin dankbar für die Möglichkeit, mit konzeption sg zusammenzuarbeiten und zu ihrem Erfolg beizutragen.",
       "position": "Wordpress Entwickler",
       "startDate": "2018-06-16",
-      "highlights": [
-        "Wordpress",
-        "PHP",
-        "Javascript"
-      ],
+      "highlights": ["Wordpress", "PHP", "Javascript"],
       "url": "https://konzeption-sg.de/"
     },
     {
@@ -139,11 +134,7 @@
       "position": "Lead Wordpress Entwickler",
       "startDate": "2018-10-16",
       "endDate": "2020-07-31",
-      "highlights": [
-        "Wordpress",
-        "PHP",
-        "Javascript"
-      ],
+      "highlights": ["Wordpress", "PHP", "Javascript"],
       "url": "https://iklr.de/"
     },
     {
@@ -152,11 +143,7 @@
       "position": "Wordpress Entwickler",
       "startDate": "2018-10-16",
       "endDate": "2020-07-31",
-      "highlights": [
-        "Wordpress",
-        "PHP",
-        "Javascript"
-      ],
+      "highlights": ["Wordpress", "PHP", "Javascript"],
       "url": "https://ello-rollator.de/"
     },
     {
@@ -165,10 +152,7 @@
       "position": "Lead Wordpress Developer",
       "startDate": "2018-04-20",
       "endDate": "2018-06-30",
-      "highlights": [
-        "Wordpress",
-        "PHP"
-      ],
+      "highlights": ["Wordpress", "PHP"],
       "url": "https://www.flugschule-phoenix.de/"
     },
     {
@@ -177,11 +161,7 @@
       "position": "SAP Entwickler",
       "startDate": "2016-07-31",
       "endDate": "2018-06-30",
-      "highlights": [
-        "SAP/ABAP",
-        "Docker",
-        "Amazon AWS"
-      ],
+      "highlights": ["SAP/ABAP", "Docker", "Amazon AWS"],
       "url": "https://remedyne.de/"
     },
     {
@@ -223,12 +203,7 @@
       "name": "Backend"
     },
     {
-      "keywords": [
-        "Firebase",
-        "AWS",
-        "Git",
-        "SAP/ABAP"
-      ],
+      "keywords": ["Firebase", "AWS", "Git", "SAP/ABAP"],
       "name": "Other"
     }
   ],
