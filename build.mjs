@@ -21,7 +21,7 @@ const t = {
     earlier: "Earlier projects & career background", projects: "Selected independent products",
     education: "Education", languages: "Languages", personal: "Personal",
     present: "Present", grade: "Grade",
-    download: "Download PDF", pdf: "Tobias-Wust-Resume.pdf",
+    theme: "Toggle light/dark mode", download: "Download PDF", pdf: "Tobias-Wust-Resume.pdf",
     switchLabel: "Deutsch", switchUrl: "https://lebenslauf.wust.dev/", locale: "en-US",
   },
   de: {
@@ -29,7 +29,7 @@ const t = {
     earlier: "Frühere Projekte & Werdegang", projects: "Eigene Produkte (Auswahl)",
     education: "Ausbildung", languages: "Sprachen", personal: "Persönliches",
     present: "Heute", grade: "Note",
-    download: "PDF herunterladen", pdf: "Tobias-Wust-Lebenslauf.pdf",
+    theme: "Hell/Dunkel umschalten", download: "PDF herunterladen", pdf: "Tobias-Wust-Lebenslauf.pdf",
     switchLabel: "English", switchUrl: "https://cv.wust.dev/", locale: "de-DE",
   },
 }[lang];
@@ -110,7 +110,23 @@ const html = `<!doctype html>
 <title>${esc(basics.name)} · ${esc(basics.label)}</title>
 <meta name="description" content="${esc(basics.name)} – ${esc(basics.label)} · ${esc(basics.tagline)}">
 <link rel="icon" href="${esc(basics.image)}">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap">
+<script>
+  // Theme: saved choice, otherwise the system setting
+  (() => {
+    let saved = null;
+    try { saved = localStorage.getItem("theme"); } catch {}
+    const system = matchMedia("(prefers-color-scheme: light)");
+    const apply = (theme) => (document.documentElement.dataset.theme = theme);
+    apply(saved || (system.matches ? "light" : "dark"));
+    system.addEventListener("change", (e) => { if (!saved) apply(e.matches ? "light" : "dark"); });
+    window.toggleTheme = () => {
+      saved = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+      apply(saved);
+      try { localStorage.setItem("theme", saved); } catch {}
+    };
+  })();
+</script>
 <style>${readFileSync("style.css", "utf8")}</style>
 </head>
 <body>
@@ -118,8 +134,8 @@ const html = `<!doctype html>
   <header class="hero">
     <img class="avatar" src="${esc(basics.image)}" alt="${esc(basics.name)}">
     <div>
-      <h1>${esc(basics.name)}</h1>
       <p class="label">${esc(basics.label)}</p>
+      <h1>${esc(basics.name)}</h1>
       <p class="tagline">${esc(basics.tagline)}</p>
       <ul class="contacts">
         <li>${esc(basics.location.address)}</li>
@@ -130,7 +146,11 @@ const html = `<!doctype html>
     </div>
     <nav class="actions">
       <a class="btn primary" href="${t.pdf}" download>${t.download}</a>
-      <a class="btn" href="${t.switchUrl}">${t.switchLabel}</a>
+      <button class="btn outline theme-toggle" type="button" onclick="toggleTheme()" aria-label="${t.theme}" title="${t.theme}">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <a class="btn outline" href="${t.switchUrl}" title="${t.switchLabel}" hreflang="${lang === "en" ? "de" : "en"}">${lang === "en" ? "DE" : "EN"}</a>
     </nav>
   </header>
   <div class="layout">
