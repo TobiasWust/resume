@@ -1,23 +1,23 @@
 {
   "name": "resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Tobias Wust – resume. Edit resume.json, run npm run build.",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.mjs",
+    "watch": "node --watch-path=resume.json --watch-path=style.css --watch-path=build.mjs build.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gist.github.com/20752344a8c66bcb93c3209f69d2f971.git"
+    "url": "git+https://github.com/TobiasWust/resume.git"
   },
-  "author": "",
+  "author": "Tobias Wust",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gist.github.com/20752344a8c66bcb93c3209f69d2f971"
+  "devDependencies": {
+    "puppeteer": "^24.43.1"
   },
-  "homepage": "https://gist.github.com/20752344a8c66bcb93c3209f69d2f971",
-  "dependencies": {
-    "jsonresume-theme-elegant": "^1.16.1",
-    "resume-cli": "^3.0.7"
+  "allowScripts": {
+    "puppeteer@24.43.1": true
   }
 }

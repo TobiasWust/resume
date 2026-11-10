@@ -2,12 +2,18 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tobias Wust",
-    "label": "React / Nodejs Fullstack Entwickler",
+    "label": {
+      "en": "React / Nodejs Fullstack Developer",
+      "de": "React / Nodejs Fullstack Entwickler"
+    },
     "image": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
     "picture": "https://avatars.githubusercontent.com/u/10038072?s=400&u=bfdb4ea78c1659dcc1d34b275a1bfb71131e8596&v=4",
     "email": "kontakt@tobiaswust.de",
     "phone": "+4917644417878",
-    "summary": "Seit meinem 11. Lebensjahr begeistere ich mich für die Softwareentwicklung und habe meine Fähigkeiten in diesem Bereich aktiv erlernt und ausgebaut. Nach dem Abschluss meines Bachelor of Science in Wirtschaftsinformatik habe ich vier Jahre lang wertvolle Erfahrungen mit SAP/ABAP im öffentlichen Sektor gesammelt. Danach entschied ich mich, als freiberuflicher Entwickler tätig zu werden und spezialisierte mich auf die Webentwicklung mit Schwerpunkt auf React und anderen gängigen Frameworks. Ich halte mich stets auf dem Laufenden über die neuesten Technologien und Best Practices, um meinen Kunden qualitativ hochwertige Lösungen bieten zu können.",
+    "summary": {
+      "en": "Since the age of 11, I have been passionate about software development and have been actively learning and growing my skills in this field. After completing my Bachelor of Science in Business Information Systems, I gained valuable experience working with SAP/ABAP in the public sector for four years. I then made the decision to become a freelance developer, specializing in web development with a focus on React and other popular frameworks. I am committed to staying up-to-date with the latest technologies and best practices in order to provide high-quality solutions for my clients.",
+      "de": "Seit meinem 11. Lebensjahr begeistere ich mich für die Softwareentwicklung und habe meine Fähigkeiten in diesem Bereich aktiv erlernt und ausgebaut. Nach dem Abschluss meines Bachelor of Science in Wirtschaftsinformatik habe ich vier Jahre lang wertvolle Erfahrungen mit SAP/ABAP im öffentlichen Sektor gesammelt. Danach entschied ich mich, als freiberuflicher Entwickler tätig zu werden und spezialisierte mich auf die Webentwicklung mit Schwerpunkt auf React und anderen gängigen Frameworks. Ich halte mich stets auf dem Laufenden über die neuesten Technologien und Best Practices, um meinen Kunden qualitativ hochwertige Lösungen bieten zu können."
+    },
     "location": {
       "address": "Europe"
     },
@@ -27,27 +33,71 @@
   "work": [
     {
       "name": "Tobias Wust",
-      "position": "Freiberuflicher Fullstack Entwickler",
+      "position": {
+        "en": "Freelance Developer",
+        "de": "Freiberuflicher Fullstack Entwickler"
+      },
       "startDate": "2018-03-31",
-      "summary": "Als Fullstack-Entwickler konzentriere ich mich auf die Erstellung ansprechender und funktionaler Web-Erlebnisse mit React und anderen führenden Frameworks. Ich gehe akribisch und detailorientiert an meine Arbeit heran und stelle sicher, dass das Endergebnis nicht nur visuell ansprechend, sondern auch hochgradig funktional und benutzerfreundlich ist."
+      "summary": {
+        "en": "As a fullstack developer, my focus is on creating beautiful and functional web experiences using React and other popular frameworks. I take a meticulous and detail-oriented approach to my work, ensuring that the end result is not only visually appealing but also highly functional and user-friendly.",
+        "de": "Als Fullstack-Entwickler konzentriere ich mich auf die Erstellung ansprechender und funktionaler Web-Erlebnisse mit React und anderen führenden Frameworks. Ich gehe akribisch und detailorientiert an meine Arbeit heran und stelle sicher, dass das Endergebnis nicht nur visuell ansprechend, sondern auch hochgradig funktional und benutzerfreundlich ist."
+      }
     },
     {
       "name": "Tobias Wust",
-      "position": "Freiberuflicher Gleitschirmfluglehrer",
+      "position": {
+        "en": "Freelance Paragliding Instructor",
+        "de": "Freiberuflicher Gleitschirmfluglehrer"
+      },
       "startDate": "2018-03-31",
-      "summary": "Neben meiner Arbeit als Fullstack-Entwickler bin ich auch Gleitschirmfluglehrer. In dieser Funktion habe ich die Möglichkeit, meine Leidenschaft für das Fliegen mit anderen zu teilen und ihnen dabei zu helfen, die Fähigkeiten und Techniken zu erlernen, die für das sichere und erfolgreiche Fliegen eines Gleitschirms erforderlich sind. Ich liebe diesen Job, weil er es mir ermöglicht, meine technischen Fähigkeiten mit meiner Liebe zur Natur und meinem Wunsch, anderen zu helfen, zu verbinden. Der Beruf des Gleitschirmfluglehrers erfordert Flexibilität und Anpassungsfähigkeit. Da das Wetter und andere Faktoren die Sicherheit beeinträchtigen können, lerne ich ständig dazu."
+      "summary": {
+        "en": "In addition to my work as a fullstack developer, I am also a paragliding flight instructor. In this role, I have the opportunity to share my passion for flying with others and help them learn the skills and techniques needed to safely and successfully fly a paraglider. I love this job because it allows me to combine my technical skills with my love of the outdoors and my desire to help others. Being a paragliding instructor also requires flexibility and adaptability, as weather and other factors can affect the ability to fly, and I am constantly learning and adapting to new situations.",
+        "de": "Neben meiner Arbeit als Fullstack-Entwickler bin ich auch Gleitschirmfluglehrer. In dieser Funktion habe ich die Möglichkeit, meine Leidenschaft für das Fliegen mit anderen zu teilen und ihnen dabei zu helfen, die Fähigkeiten und Techniken zu erlernen, die für das sichere und erfolgreiche Fliegen eines Gleitschirms erforderlich sind. Ich liebe diesen Job, weil er es mir ermöglicht, meine technischen Fähigkeiten mit meiner Liebe zur Natur und meinem Wunsch, anderen zu helfen, zu verbinden. Der Beruf des Gleitschirmfluglehrers erfordert Flexibilität und Anpassungsfähigkeit. Da das Wetter und andere Faktoren die Sicherheit beeinträchtigen können, lerne ich ständig dazu."
+      }
+    },
+    {
+      "name": "node.energy",
+      "position": "Senior Frontend Developer",
+      "startDate": "2024-10-01",
+      "highlights": [
+        "React",
+        "Tanstack React Query",
+        "Webpack",
+        "Mantine",
+        "Typescript"
+      ],
+      "url": "https://www.node.energy/",
+      "summary": {
+        "en": "As part of the team at node.energy as Senior Frontend Developer, I contribute to building robust, component-driven web applications. My focus is on creating scalable and maintainable UI components that enable fast, intuitive user experiences. To be effective in this role, I quickly developed a strong understanding of energy economics and regulation, which helps me translate complex domain knowledge into clear, user-centered digital tools. I enjoy learning new topics at speed and applying that knowledge collaboratively to deliver meaningful solutions. I'm proud to contribute my expertise to a team that drives real impact: accelerating the energy transition.",
+        "de": "Als Teil des Teams von node.energy als Senior Frontend Developer trage ich zur Entwicklung robuster, komponentenbasierter Webanwendungen bei. Mein Schwerpunkt liegt auf der Erstellung skalierbarer und wartungsfreundlicher UI-Komponenten, die eine schnelle und intuitive Benutzererfahrung ermöglichen. Um in dieser Rolle effektiv zu sein, habe ich mir schnell ein fundiertes Verständnis der Energiewirtschaft und -regulierung angeeignet, das mir hilft, komplexes Fachwissen in klare, benutzerorientierte digitale Tools umzusetzen. Ich lerne gerne schnell neue Themen und wende dieses Wissen gemeinsam mit anderen an, um sinnvolle Lösungen zu entwickeln. Ich bin stolz darauf, mein Fachwissen in ein Team einzubringen, das echte Veränderungen bewirkt: die Beschleunigung der Energiewende."
+      }
     },
     {
       "name": "Zeix AG",
-      "position": "Associate Frontend Entwickler",
+      "position": {
+        "en": "Associate Frontend Developer",
+        "de": "Associate Frontend Entwickler"
+      },
       "startDate": "2023-03-01",
-      "highlights": ["Handlebars", "TypeScript", "Gulp", "NodeJs"],
+      "endDate": "2024-08-31",
+      "highlights": [
+        "Handlebars",
+        "TypeScript",
+        "Gulp",
+        "NodeJs"
+      ],
       "url": "https://zeix.com/",
-      "summary": "Als Frontend-Entwickler bei Zeix habe ich an der Entwicklung von Websites der Schweizer Regierung mitgewirkt. Mit meiner umfangreichen Erfahrung in der Frontend-Entwicklung habe ich mit einem selbstentwickelten Tech-Stack gearbeitet und mich nahtlos in das Projekt integriert. Meine Aufgabe bestand nicht nur darin, neuen Code hinzuzufügen, sondern auch bestehenden Code aktiv zu verbessern, um optimale Leistung und Benutzerfreundlichkeit zu gewährleisten."
+      "summary": {
+        "en": "As a Frontend Developer at Zeix, I contributed to the development of governmental websites. Leveraging my extensive experience in frontend development, I adeptly navigated a custom tech stack, seamlessly integrating myself into the project. My role extended beyond the addition of new code; I actively enhanced existing codebases, ensuring optimal performance and user experience.",
+        "de": "Als Frontend-Entwickler bei Zeix habe ich an der Entwicklung von Websites der Schweizer Regierung mitgewirkt. Mit meiner umfangreichen Erfahrung in der Frontend-Entwicklung habe ich mit einem selbstentwickelten Tech-Stack gearbeitet und mich nahtlos in das Projekt integriert. Meine Aufgabe bestand nicht nur darin, neuen Code hinzuzufügen, sondern auch bestehenden Code aktiv zu verbessern, um optimale Leistung und Benutzerfreundlichkeit zu gewährleisten."
+      }
     },
     {
       "name": "SummarizeIt",
-      "summary": "Als Lead Fullstack Entwickler bei Summarizeit, einem SaaS-Unternehmen, das KI zur Erstellung von Zusammenfassungen aus Videos erstellt, war ich für die Entwicklung und Implementierung verschiedener Funktionen verantwortlich - darunter Benutzerverwaltung, Zahlungsabwicklung und das Produkt selbst. Durch den Einsatz moderner Technologien habe ich verschiedene technische Herausforderungen erfolgreich gemeistert, um ein hochwertiges Produkt zu entwickeln.",
+      "summary": {
+        "en": "As the Lead Developer at Summarizeit, a SaaS company using AI to create summaries from videos, I was responsible for the development and implementation of various features including user management, payment processing, and the product itself. Utilizing modern technologies, I successfully managed and overcame various technical challenges to deliver a high-quality product.",
+        "de": "Als Lead Fullstack Entwickler bei Summarizeit, einem SaaS-Unternehmen, das KI zur Erstellung von Zusammenfassungen aus Videos erstellt, war ich für die Entwicklung und Implementierung verschiedener Funktionen verantwortlich - darunter Benutzerverwaltung, Zahlungsabwicklung und das Produkt selbst. Durch den Einsatz moderner Technologien habe ich verschiedene technische Herausforderungen erfolgreich gemeistert, um ein hochwertiges Produkt zu entwickeln."
+      },
       "startDate": "2022-12-15",
       "endDate": "2023-08-01",
       "highlights": [
@@ -60,11 +110,17 @@
         "Tailwind CSS"
       ],
       "url": "https://summarizeit.io/",
-      "position": "Lead Fullstack Entwickler"
+      "position": {
+        "en": "Lead Fullstack Developer",
+        "de": "Lead Fullstack Entwickler"
+      }
     },
     {
       "name": "hitcap esports GmbH",
-      "summary": "Bei der hitcap esports GmbH hatte ich die Möglichkeit, an zwei spannenden Produkten für die Gaming-Branche zu arbeiten. Als Frontend-Entwickler war ich für den Aufbau einer Social-Media-Plattform für Gamer und einer Coaching-Plattform für angehende Profis verantwortlich. Beide Projekte erforderten ein hohes Maß an Geschick und Liebe zum Detail, und ich konnte die Visionen der Designer mit Hilfe von React und anderen Technologien erfolgreich zum Leben erwecken. Diese Erfahrung hat mir wertvolle Einblicke in die Welt der Games gewährt und mir die Möglichkeit gegeben, zur Entwicklung innovativer und wegweisender Produkte beizutragen.",
+      "summary": {
+        "en": "At hitcap esports GmbH, I had the opportunity to work on two exciting products for the gaming industry. As a front-end developer, I was responsible for helping to build a social media platform for gamers and a coaching platform for aspiring professionals. Both projects required a high level of skill and attention to detail, and I was able to successfully bring the designers' vision to life using React and other technologies. This experience provided valuable insights into the world of gaming and gave me the opportunity to contribute to the development of innovative and cutting-edge products.",
+        "de": "Bei der hitcap esports GmbH hatte ich die Möglichkeit, an zwei spannenden Produkten für die Gaming-Branche zu arbeiten. Als Frontend-Entwickler war ich für den Aufbau einer Social-Media-Plattform für Gamer und einer Coaching-Plattform für angehende Profis verantwortlich. Beide Projekte erforderten ein hohes Maß an Geschick und Liebe zum Detail, und ich konnte die Visionen der Designer mit Hilfe von React und anderen Technologien erfolgreich zum Leben erwecken. Diese Erfahrung hat mir wertvolle Einblicke in die Welt der Games gewährt und mir die Möglichkeit gegeben, zur Entwicklung innovativer und wegweisender Produkte beizutragen."
+      },
       "startDate": "2021-01-31",
       "endDate": "2022-08-31",
       "highlights": [
@@ -76,84 +132,164 @@
         "MongoDB"
       ],
       "url": "https://www.linkedin.com/company/hitcapgg/",
-      "position": "Frontend Entwickler"
+      "position": {
+        "en": "Frontend Developer",
+        "de": "Frontend Entwickler"
+      }
     },
     {
       "name": "Musikerstube",
-      "summary": "Ich hatte die Gelegenheit, mit Musikerstube zusammenzuarbeiten, einem Musiklehrer, der sich auf das Unterrichten der steirischen Harmonika spezialisiert hat. In dieser Rolle habe ich an der Entwicklung eines eigenen Videoplayers für Vimeo mitgewirkt, der es den Kunden ermöglicht, Abschnitte eines Videos zum leichteren Üben zu wiederholen. Dieses Projekt erforderte ein tiefes Verständnis sowohl für Musik als auch für Technologie, und ich konnte eine Lösung liefern, die den Bedürfnissen des Kunden entsprach und es ihm erleichterte, seinen Schülern qualitativ hochwertigen Unterricht zu bieten.",
+      "summary": {
+        "en": "I recently had the opportunity to work with Musikerstube, a music teacher who specializes in teaching the styrian harmonica. In this role, I assisted in the development of a custom video player for Vimeo that allowed customers to easily repeat sections of a video for easier musical practice. This project required a deep understanding of both music and technology, and I was able to deliver a solution that met the client's needs and improved their ability to provide high-quality instruction to their students.",
+        "de": "Ich hatte die Gelegenheit, mit Musikerstube zusammenzuarbeiten, einem Musiklehrer, der sich auf das Unterrichten der steirischen Harmonika spezialisiert hat. In dieser Rolle habe ich an der Entwicklung eines eigenen Videoplayers für Vimeo mitgewirkt, der es den Kunden ermöglicht, Abschnitte eines Videos zum leichteren Üben zu wiederholen. Dieses Projekt erforderte ein tiefes Verständnis sowohl für Musik als auch für Technologie, und ich konnte eine Lösung liefern, die den Bedürfnissen des Kunden entsprach und es ihm erleichterte, seinen Schülern qualitativ hochwertigen Unterricht zu bieten."
+      },
       "startDate": "2020-12-01",
       "endDate": "2020-12-31",
-      "highlights": ["PHP", "Javascript"],
+      "highlights": [
+        "PHP",
+        "Javascript"
+      ],
       "url": "https://musikerstube.at/",
-      "position": "Frontend Entwickler"
+      "position": {
+        "en": "Frontend Developer",
+        "de": "Frontend Entwickler"
+      }
     },
     {
       "name": "book-in Manager",
-      "summary": "Book-in Manager ist ein React-basiertes Verwaltungstool für Hotels und Airbnb-Vermietungen. Dort habe ich an der Entwicklung von benutzerdefinierten Komponenten für die Plattform mitgearbeitet und dabei mein Fachwissen in React und Frontend-Entwicklung eingesetzt. Dieses Projekt erforderte ein hohes Maß an Fachkenntnis und Liebe zum Detail, und ich konnte einen wichtigen Beitrag zur Entwicklung dieses innovativen und benutzerfreundlichen Tools leisten.",
+      "summary": {
+        "en": " I had the opportunity to work on book-in manager, a React-based management tool for hotels and Airbnb rentals. In this role, I assisted in the development of custom components for the platform, leveraging my expertise in React and front-end development. This project required a high level of skill and attention to detail, and I was able to make meaningful contributions to the development of this innovative and user-friendly tool.",
+        "de": "Book-in Manager ist ein React-basiertes Verwaltungstool für Hotels und Airbnb-Vermietungen. Dort habe ich an der Entwicklung von benutzerdefinierten Komponenten für die Plattform mitgearbeitet und dabei mein Fachwissen in React und Frontend-Entwicklung eingesetzt. Dieses Projekt erforderte ein hohes Maß an Fachkenntnis und Liebe zum Detail, und ich konnte einen wichtigen Beitrag zur Entwicklung dieses innovativen und benutzerfreundlichen Tools leisten."
+      },
       "startDate": "2021-01-31",
       "endDate": "2022-06-30",
-      "highlights": ["React", "Javascript"],
+      "highlights": [
+        "React",
+        "Javascript"
+      ],
       "url": "https://book-in.at/",
       "position": "Frontend Developer"
     },
     {
       "name": "Divery.io",
-      "summary": "Divery ist ein ERP-System, das speziell für Tauchbasen entwickelt wurde und eine umfangreiche Lösung für die Kursplanung, Rechnungsstellung und Materialverwaltung bietet. Als ich dem Projekt beitrat, wurde die Plattform mit jQuery entwickelt, und als einziger Entwickler im Team arbeitete ich eine Zeit lang weiter mit jQuery. Später, als das Team wuchs und weitere Entwickler hinzukamen, migrierten wir die Plattform zu React. Während dieses Prozesses spielte ich eine entscheidende Rolle bei der Sicherstellung eines reibungslosen Übergangs und der kontinuierlichen Weiterentwicklung der Plattform, indem ich mein Fachwissen sowohl in jQuery als auch in React nutzte, um unseren Kunden hochwertige Lösungen zu liefern.",
+      "summary": {
+        "en": "Divery is an ERP specifically designed for dive centers, providing them with a comprehensive solution for course planning, billing, and materials management. When I joined the project, the platform was built using jQuery, and as the sole developer on the team, I continued to work with jQuery for a while. Later, as the team grew and we added more developers, we migrated the platform to React. Throughout this process, I played a critical role in ensuring a smooth transition and continued development of the platform, leveraging my expertise in both jQuery and React to deliver high-quality solutions for our clients.",
+        "de": "Divery ist ein ERP-System, das speziell für Tauchbasen entwickelt wurde und eine umfangreiche Lösung für die Kursplanung, Rechnungsstellung und Materialverwaltung bietet. Als ich dem Projekt beitrat, wurde die Plattform mit jQuery entwickelt, und als einziger Entwickler im Team arbeitete ich eine Zeit lang weiter mit jQuery. Später, als das Team wuchs und weitere Entwickler hinzukamen, migrierten wir die Plattform zu React. Während dieses Prozesses spielte ich eine entscheidende Rolle bei der Sicherstellung eines reibungslosen Übergangs und der kontinuierlichen Weiterentwicklung der Plattform, indem ich mein Fachwissen sowohl in jQuery als auch in React nutzte, um unseren Kunden hochwertige Lösungen zu liefern."
+      },
       "startDate": "2018-11-30",
       "endDate": "2020-02-28",
-      "highlights": ["jQuery", "React", "CouchDB"],
+      "highlights": [
+        "jQuery",
+        "React",
+        "CouchDB"
+      ],
       "location": "Remote",
-      "position": "Lead Frontend Entwickler",
+      "position": {
+        "en": "Lead Frontend Developer",
+        "de": "Lead Frontend Entwickler"
+      },
       "url": "https://divery.io/"
     },
     {
       "name": "konzeption sg",
-      "summary": "Ich hatte das Vergnügen, mit konzeption sg, einer Webdesign-Agentur, an einer Reihe von anspruchsvollen Entwicklungsprojekten zu arbeiten. Zum Beispiel habe ich ein individuelles WordPress-Plugin für eine Immobilienagentur entwickelt, die ihre WordPress-Website nutzen wollte, um ihre Immobilien zu verwalten und sie in mehrere Immobilienplattformen zu exportieren. Dieses Projekt erforderte ein hohes Maß an technischem Fachwissen und ein tiefes Verständnis von WordPress, und ich war in der Lage, eine Lösung zu liefern, die den Anforderungen des Kunden entsprach und seine Erwartungen übertraf. Ich bin dankbar für die Möglichkeit, mit konzeption sg zusammenzuarbeiten und zu ihrem Erfolg beizutragen.",
-      "position": "Wordpress Entwickler",
+      "summary": {
+        "en": "I have had the pleasure of working with konzeption sg, a web design agency, on a number of challenging development projects. For example, I recently developed a custom WordPress plugin for a real estate agency that wanted to use their WordPress website to manage their properties and export them to multiple real estate platforms. This project required a high level of technical expertise and an in-depth understanding of WordPress, and I was able to deliver a solution that met the client's needs and exceeded their expectations. I am grateful for the opportunity to collaborate with konzeption sg and contribute to their success.",
+        "de": "Ich hatte das Vergnügen, mit konzeption sg, einer Webdesign-Agentur, an einer Reihe von anspruchsvollen Entwicklungsprojekten zu arbeiten. Zum Beispiel habe ich ein individuelles WordPress-Plugin für eine Immobilienagentur entwickelt, die ihre WordPress-Website nutzen wollte, um ihre Immobilien zu verwalten und sie in mehrere Immobilienplattformen zu exportieren. Dieses Projekt erforderte ein hohes Maß an technischem Fachwissen und ein tiefes Verständnis von WordPress, und ich war in der Lage, eine Lösung zu liefern, die den Anforderungen des Kunden entsprach und seine Erwartungen übertraf. Ich bin dankbar für die Möglichkeit, mit konzeption sg zusammenzuarbeiten und zu ihrem Erfolg beizutragen."
+      },
+      "position": {
+        "en": "Wordpress Developer",
+        "de": "Wordpress Entwickler"
+      },
       "startDate": "2018-06-16",
-      "highlights": ["Wordpress", "PHP", "Javascript"],
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
       "url": "https://konzeption-sg.de/"
     },
     {
       "name": "Iklr.de (Herzretterkurse GmbH)",
-      "summary": "Ich hatte die Gelegenheit, mit Iklr (Ich kann Leben retten) zusammenzuarbeiten, einer gemeinnützigen Organisation, die Menschen die Herz-Lungen-Wiederbelebung (HLW) beibringen will, um Leben zu retten. Im Rahmen dieses Projekts habe ich bei der Neugestaltung und Entwicklung einer neuen Website mit WordPress mitgearbeitet. Dies war ein herausforderndes und lohnendes Projekt, da es ein tiefes Verständnis sowohl für die Webentwicklung als auch für die Aufgabe von Iklr erforderte. Ich bin stolz darauf, zum Erfolg dieser wichtigen Initiative beigetragen zu haben, und ich bin dankbar für die Möglichkeit, meine Fähigkeiten einsetzen zu können, um anderen zu helfen.",
-      "position": "Lead Wordpress Entwickler",
+      "summary": {
+        "en": "I recently had the opportunity to work with Iklr (Ich kann Leben retten / I can save lifes), a nonprofit organization that seeks to teach people cardiopulmonary resuscitation (CPR) in order to save lives. As part of this project, I assisted in the redesign and development of a new website using WordPress. This was a challenging and rewarding project, as it required a deep understanding of both web development and the mission of Iklr. I am proud to have contributed to the success of this important initiative, and I am grateful for the opportunity to use my skills to help others.",
+        "de": "Ich hatte die Gelegenheit, mit Iklr (Ich kann Leben retten) zusammenzuarbeiten, einer gemeinnützigen Organisation, die Menschen die Herz-Lungen-Wiederbelebung (HLW) beibringen will, um Leben zu retten. Im Rahmen dieses Projekts habe ich bei der Neugestaltung und Entwicklung einer neuen Website mit WordPress mitgearbeitet. Dies war ein herausforderndes und lohnendes Projekt, da es ein tiefes Verständnis sowohl für die Webentwicklung als auch für die Aufgabe von Iklr erforderte. Ich bin stolz darauf, zum Erfolg dieser wichtigen Initiative beigetragen zu haben, und ich bin dankbar für die Möglichkeit, meine Fähigkeiten einsetzen zu können, um anderen zu helfen."
+      },
+      "position": {
+        "en": "Lead Wordpress Developer",
+        "de": "Lead Wordpress Entwickler"
+      },
       "startDate": "2018-10-16",
       "endDate": "2020-07-31",
-      "highlights": ["Wordpress", "PHP", "Javascript"],
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
       "url": "https://iklr.de/"
     },
     {
       "name": "Ello Rollator (eMovements GmbH)",
-      "summary": "Ello Rollator war ein Startup, das elektrische Rollatoren herstellte. Ich unterstützte das bestehende WordPress-Team bei einer Vielzahl von Entwicklungsproblemen und setzte mein Fachwissen in der Webentwicklung ein, um dem Team bei der Bewältigung von Herausforderungen zu helfen und weitere Fortschritte bei ihrem innovativen Produkt zu erzielen. Dies war eine lohnende Erfahrung, da ich so zum Erfolg eines Startups beitragen und dabei helfen konnte, ein einzigartiges und wertvolles Produkt auf den Markt zu bringen.",
-      "position": "Wordpress Entwickler",
+      "summary": {
+        "en": "I had the opportunity to work with Ello Rollator, a startup that builds electric rollator walkers. In this role, I assisted the existing WordPress team with a variety of development issues, leveraging my expertise in web development to help the team overcome challenges and continue to make progress on their innovative product. This was a rewarding experience, as it allowed me to contribute to the success of a startup and help bring a unique and valuable product to market.",
+        "de": "Ello Rollator war ein Startup, das elektrische Rollatoren herstellte. Ich unterstützte das bestehende WordPress-Team bei einer Vielzahl von Entwicklungsproblemen und setzte mein Fachwissen in der Webentwicklung ein, um dem Team bei der Bewältigung von Herausforderungen zu helfen und weitere Fortschritte bei ihrem innovativen Produkt zu erzielen. Dies war eine lohnende Erfahrung, da ich so zum Erfolg eines Startups beitragen und dabei helfen konnte, ein einzigartiges und wertvolles Produkt auf den Markt zu bringen."
+      },
+      "position": {
+        "en": "Wordpress Developer",
+        "de": "Wordpress Entwickler"
+      },
       "startDate": "2018-10-16",
       "endDate": "2020-07-31",
-      "highlights": ["Wordpress", "PHP", "Javascript"],
+      "highlights": [
+        "Wordpress",
+        "PHP",
+        "Javascript"
+      ],
       "url": "https://ello-rollator.de/"
     },
     {
       "name": "Flugschule Phoenix",
-      "summary": "Bei der Flugschule Phönix war ich für die Gestaltung und Erstellung einer neuen Website mit WordPress verantwortlich. Die Website umfasste ein Kursverwaltungs- und Buchungssystem, und ich konnte mein Fachwissen in WordPress und Webentwicklung nutzen, um eine benutzerfreundliche und funktionale Lösung zu erstellen, die den Anforderungen der Schule entsprach und ihre Möglichkeiten zur Verwaltung und Bewerbung ihrer Kurse verbesserte.",
+      "summary": {
+        "en": "I recently had the opportunity to work with Flugschule Phoenix, a paragliding school. As part of this project, I was responsible for designing and creating a new website for the school using WordPress. The website included a course management and booking system, and I was able to leverage my expertise in WordPress and web development to create a user-friendly and functional solution that met the school's needs and improved their ability to manage and promote their courses. This was a rewarding project, and I am grateful for the opportunity to contribute to the success of Flugschule Phoenix.",
+        "de": "Bei der Flugschule Phönix war ich für die Gestaltung und Erstellung einer neuen Website mit WordPress verantwortlich. Die Website umfasste ein Kursverwaltungs- und Buchungssystem, und ich konnte mein Fachwissen in WordPress und Webentwicklung nutzen, um eine benutzerfreundliche und funktionale Lösung zu erstellen, die den Anforderungen der Schule entsprach und ihre Möglichkeiten zur Verwaltung und Bewerbung ihrer Kurse verbesserte."
+      },
       "position": "Lead Wordpress Developer",
       "startDate": "2018-04-20",
       "endDate": "2018-06-30",
-      "highlights": ["Wordpress", "PHP"],
+      "highlights": [
+        "Wordpress",
+        "PHP"
+      ],
       "url": "https://www.flugschule-phoenix.de/"
     },
     {
       "name": "REMEDYNE GmbH",
-      "summary": "REMEDYNE ist ein Add-on zur Betrugsprävention für SAP. Ich war für die Entwicklung von Betrugsprüfungen, die Internationalisierung und die Entwicklung einer serverless API auf AWS verantwortlich. Dies war ein anspruchsvolles Projekt, da es ein tiefes Verständnis von SAP, Betrugsprävention und Cloud Computing erforderte. Ich konnte mein Fachwissen in diesen Bereichen nutzen, um sinnvolle Beiträge zum Erfolg von Remedyne zu leisten, und ich bin dankbar für die Möglichkeit, an diesem innovativen Projekt zu arbeiten.",
-      "position": "SAP Entwickler",
+      "summary": {
+        "en": "Remedyne is a fraud prevention add-on for SAP. In this role, I was responsible for developing fraud checks, managing internationalization, and helping to develop a serverless API on AWS. This was a challenging and rewarding project, as it required a deep understanding of SAP, fraud prevention, and cloud computing. I was able to leverage my expertise in these areas to make meaningful contributions to the success of Remedyne, and I am grateful for the opportunity to work on this innovative and impactful project.",
+        "de": "REMEDYNE ist ein Add-on zur Betrugsprävention für SAP. Ich war für die Entwicklung von Betrugsprüfungen, die Internationalisierung und die Entwicklung einer serverless API auf AWS verantwortlich. Dies war ein anspruchsvolles Projekt, da es ein tiefes Verständnis von SAP, Betrugsprävention und Cloud Computing erforderte. Ich konnte mein Fachwissen in diesen Bereichen nutzen, um sinnvolle Beiträge zum Erfolg von Remedyne zu leisten, und ich bin dankbar für die Möglichkeit, an diesem innovativen Projekt zu arbeiten."
+      },
+      "position": {
+        "en": "SAP Developer",
+        "de": "SAP Entwickler"
+      },
       "startDate": "2016-07-31",
       "endDate": "2018-06-30",
-      "highlights": ["SAP/ABAP", "Docker", "Amazon AWS"],
+      "highlights": [
+        "SAP/ABAP",
+        "Docker",
+        "Amazon AWS"
+      ],
       "url": "https://remedyne.de/"
     },
     {
       "name": "Landeshauptstadt Hannover",
-      "summary": "Nach meinem Bachelor-Abschluss hatte ich die Möglichkeit, bei der Stadt Hannover als SAP-Entwickler zu arbeiten. In dieser Funktion war ich für die SAP-Administration, die Softwareentwicklung, das Modulmanagement und die Autorisierung zuständig. Außerdem arbeitete ich mit Geschäftspartnern und CML zusammen und half bei der Entwicklung maßgeschneiderter SAP-Lösungen für die verschiedenen Abteilungen der Stadt. Dies war eine herausfordernde und lohnende Erfahrung, da ich mein SAP-Fachwissen einsetzen konnte, um die Abläufe der Stadt zu verbessern und ihren Abteilungen und Mitarbeitern hochwertige Lösungen zu liefern.",
-      "position": "SAP Entwickler",
+      "summary": {
+        "en": "After my Bachelors Degree I had the opportunity to work for the City of Hanover as a SAP developer. In this role, I was responsible for SAP administration, software development and module management, and authorization. I also worked with business partners and CML, and I helped to develop custom SAP solutions for the city's various departments. This was a challenging and rewarding experience, as it allowed me to use my SAP expertise to help improve the city's operations and deliver high-quality solutions to its departments and employees.",
+        "de": "Nach meinem Bachelor-Abschluss hatte ich die Möglichkeit, bei der Stadt Hannover als SAP-Entwickler zu arbeiten. In dieser Funktion war ich für die SAP-Administration, die Softwareentwicklung, das Modulmanagement und die Autorisierung zuständig. Außerdem arbeitete ich mit Geschäftspartnern und CML zusammen und half bei der Entwicklung maßgeschneiderter SAP-Lösungen für die verschiedenen Abteilungen der Stadt. Dies war eine herausfordernde und lohnende Erfahrung, da ich mein SAP-Fachwissen einsetzen konnte, um die Abläufe der Stadt zu verbessern und ihren Abteilungen und Mitarbeitern hochwertige Lösungen zu liefern."
+      },
+      "position": {
+        "en": "SAP Developer",
+        "de": "SAP Entwickler"
+      },
       "startDate": "2013-09-30",
       "endDate": "2017-07-31",
       "highlights": [
@@ -189,14 +325,25 @@
       "name": "Backend"
     },
     {
-      "keywords": ["Firebase", "AWS", "Git", "SAP/ABAP"],
-      "name": "Other"
+      "keywords": [
+        "Firebase",
+        "AWS",
+        "Git",
+        "SAP/ABAP"
+      ],
+      "name": {
+        "en": "Other",
+        "de": "Sonstiges"
+      }
     }
   ],
   "education": [
     {
       "institution": "Leibniz Fachhochschule Hannover",
-      "area": "Wirtschaftsinformatik",
+      "area": {
+        "en": "Business Information Systems",
+        "de": "Wirtschaftsinformatik"
+      },
       "studyType": "Bachelor of Science",
       "startDate": "2009-12-31",
       "endDate": "2012-12-31",
@@ -205,7 +352,10 @@
     },
     {
       "institution": "OfG / Online-Schule für Gestaltung",
-      "area": "Grafikdesign",
+      "area": {
+        "en": "Graphic Design",
+        "de": "Grafikdesign"
+      },
       "studyType": "Remote",
       "startDate": "2013",
       "endDate": "2014",
@@ -215,31 +365,64 @@
   ],
   "languages": [
     {
-      "fluency": "Native Speaker",
-      "language": "Deutsch"
+      "fluency": {
+        "en": "Native Speaker",
+        "de": "Muttersprache"
+      },
+      "language": {
+        "en": "German",
+        "de": "Deutsch"
+      }
     },
     {
-      "fluency": "Full Professional",
-      "language": "Englisch"
+      "fluency": {
+        "en": "Full Professional",
+        "de": "Verhandlungssicher"
+      },
+      "language": {
+        "en": "English",
+        "de": "Englisch"
+      }
     },
     {
-      "fluency": "Elementary",
-      "language": "Italienisch"
+      "fluency": {
+        "en": "Elementary",
+        "de": "Grundkenntnisse"
+      },
+      "language": {
+        "en": "Italian",
+        "de": "Italienisch"
+      }
     },
     {
-      "fluency": "Elementary",
-      "language": "Mandarin Chinesisch"
+      "fluency": {
+        "en": "Elementary",
+        "de": "Grundkenntnisse"
+      },
+      "language": {
+        "en": "Mandarin Chinese",
+        "de": "Mandarin Chinesisch"
+      }
     }
   ],
   "interests": [
     {
-      "name": "Gleitschirmfliegen"
+      "name": {
+        "en": "Paragliding",
+        "de": "Gleitschirmfliegen"
+      }
     },
     {
-      "name": "Wandern"
+      "name": {
+        "en": "Hiking",
+        "de": "Wandern"
+      }
     },
     {
-      "name": "Abenteuer"
+      "name": {
+        "en": "Adventures",
+        "de": "Abenteuer"
+      }
     }
   ],
   "meta": {

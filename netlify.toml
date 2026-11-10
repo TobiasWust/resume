@@ -1,0 +1,5 @@
+# Used by both sites: cv.wust.dev (en) and lebenslauf.wust.dev (de).
+# build.mjs picks the language from Netlify's URL env var.
+[build]
+  command = "npm run build"
+  publish = "public"
