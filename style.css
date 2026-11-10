@@ -152,7 +152,8 @@ h3 { font-family: var(--display); font-size: 15px; font-weight: 700; }
 /* PDF: light, flat, dense – same fonts and orange accent */
 @page { size: A4; margin: 12mm 14mm; }
 @media print {
-  :root {
+  /* [data-theme] so the print palette also beats the light/dark theme selectors */
+  :root, :root[data-theme] {
     --bg: #fff; --text: var(--wu-blue); --muted: #5b6178;
     --card-bg: transparent; --card-border: #dfe1ea;
     --accent-text: #b85f05; --accent-soft: #fdf0e3; --tag: #f1f2f6;
@@ -178,7 +179,7 @@ h3 { font-family: var(--display); font-size: 15px; font-weight: 700; }
   #about, #skills, #experience, #projects { grid-column: 1 / -1; }
   #about { order: 1; } #skills { order: 2; } #experience { order: 3; } #projects { order: 4; }
   #education { order: 5; } #languages { order: 6; } #personal { order: 7; }
-  aside section, .job, .project { border: 0; border-radius: 0; padding: 0; }
+  aside section, .job, .project { border: 0; border-radius: 0; padding: 0; background: none; box-shadow: none; }
   #skills > div { display: inline-block; vertical-align: top; width: 33%; padding-right: 12px; }
   .skill-group + .skill-group { margin-top: 0; }
   .skill-group h3 { font-size: 8pt; color: var(--accent-text); }
