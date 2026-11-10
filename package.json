@@ -19,5 +19,8 @@
   },
   "allowScripts": {
     "puppeteer@24.43.1": true
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
