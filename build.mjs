@@ -15,6 +15,9 @@ import puppeteer from "puppeteer";
 
 const lang = process.argv[2] || (process.env.URL?.includes("lebenslauf") ? "de" : "en");
 
+// public address of each language, for canonical and hreflang
+const SITES = { en: "https://cv.wust.dev/", de: "https://lebenslauf.wust.dev/" };
+
 const t = {
   en: {
     about: "Profile", skills: "Skills", experience: "Professional experience",
@@ -109,6 +112,10 @@ const html = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(basics.name)} · ${esc(basics.label)}</title>
 <meta name="description" content="${esc(basics.name)} – ${esc(basics.label)} · ${esc(basics.tagline)}">
+<link rel="canonical" href="${SITES[lang]}">
+<link rel="alternate" hreflang="en" href="${SITES.en}">
+<link rel="alternate" hreflang="de" href="${SITES.de}">
+<link rel="alternate" hreflang="x-default" href="${SITES.en}">
 <link rel="icon" href="${esc(basics.image)}">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap">
 <script>
